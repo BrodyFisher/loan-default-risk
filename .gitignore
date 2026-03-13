@@ -1,4 +1,6 @@
-cat > .gitignore << EOF
+# Virtual environments
+.venv
+
 # Python
 __pycache__/
 *.pyc
