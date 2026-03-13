@@ -1,0 +1,23 @@
+{
+  "feature_names": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "age",
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "DebtRatio",
+    "MonthlyIncome",
+    "NumberOfOpenCreditLinesAndLoans",
+    "NumberOfTimes90DaysLate",
+    "NumberRealEstateLoansOrLines",
+    "NumberOfTime60-89DaysPastDueNotWorse",
+    "NumberOfDependents"
+  ],
+  "cap_cols": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "DebtRatio"
+  ],
+  "cap_values": {
+    "RevolvingUtilizationOfUnsecuredLines": 1.0944339991143,
+    "DebtRatio": 4977.0
+  },
+  "threshold": 0.77
+}
