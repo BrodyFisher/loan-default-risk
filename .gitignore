@@ -1,2 +1,25 @@
-.venv
+cat > .gitignore << EOF
+# Python
+__pycache__/
+*.pyc
+*.pyo
 .env
+*.egg-info/
+
+# Data — too large for git
+GiveMeSomeCredit/
+
+# Model artifacts — regenerate with save_model.py
+api/model.joblib
+api/preprocessor.joblib
+
+# Evidently reports
+monitoring/evidently/reports/
+
+# Grafana & Prometheus data volumes
+grafana_data/
+prometheus_data/
+
+# OS
+.DS_Store
+EOF
