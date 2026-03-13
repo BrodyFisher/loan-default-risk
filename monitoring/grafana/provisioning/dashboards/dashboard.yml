@@ -1,0 +1,8 @@
+# monitoring/grafana/provisioning/dashboards/dashboard.yml
+apiVersion: 1
+providers:
+  - name: default
+    folder: Loan Default Risk
+    type: file
+    options:
+      path: /var/lib/grafana/dashboards
